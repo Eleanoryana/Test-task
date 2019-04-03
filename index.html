@@ -1,0 +1,224 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Test-task</title>
+      <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="theme-color" content="#fff">
+      <meta name="format-detection" content="telephone=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <link rel="stylesheet" media="all" href="css/app.css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+      <!--font-awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+      <!--slick-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.7.1/slick-theme.min.css" />
+      <!--element-ui-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/element-ui/1.4.2/theme-default/index.css" />
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/fonts.css">
+   </head>
+   <body>
+      <div class="container header">
+         <nav class="top-menu navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between ">
+            <a class="navbar-brand" href="#">Drumasters</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse align-self-end justify-content-end" id="navbarNavDropdown">
+               <ul class="navbar-nav d-flex align-items-center">
+                  <li class="nav-item ">
+                     <a class="nav-link" href="#">About us</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Technologies </a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                     <a class="nav-link" href="#">Contacts       </a>
+                  </li>
+                  <li class="nav-item active">
+                     <a class="nav-link" href="#">Hire us</a>
+                  </li>
+               </ul>
+            </div>
+         </nav>
+      </div>
+      <!-- BEGIN content -->
+      <div class="wrap">
+         <div id="header">
+            <!--begin slider-->
+            <div class="slider-top-wr">
+               <app-slider-top v-cloak></app-slider-top>
+            </div>
+            <!--¯\_(ツ)_/¯ end slider-->
+         </div>
+      </div>
+      <div class="container">
+         <div class="info">
+            <h2 class="info__title">We are <span class="info__title_give">drupal</span> masters</h2>
+            <div class="row">
+               <div class="col-xl-6 col-lg-12">
+                  <p class="info__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+               </div>
+               <div class="col-xl-4 col-lg-6">
+                  <p class="info__light-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                  <p class="info__light-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+               </div>
+               <div class="col-xl-2 col-lg-6 d-flex flex-column justify-content-center align-items-center">
+                  <div class="info_avatar"></div>
+                  <p class="info__small">We are certificated members of Drupal Association.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid container__dark">
+         <div class="info info_dark">
+            <h2 class="info__title">Technology  <span class="info__title_give">stack</span></h2>
+            <div class="row">
+               <div class="col-xl-6 col-lg-12">
+                  <p class="info__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+               </div>
+               <div class="col-xl-3 col-lg-6">
+                  <h3 class="info__sub-title">Design</h3>
+                  <p class="info__light-text">Prototyping and mockups, user experience & user interface design, responsive grids.</p>
+                  <p class="info__light-text">Few words about our vision of good website design.</p>
+               </div>
+               <div class="col-xl-3 col-lg-6 d-flex flex-column justify-content-center ">
+                  <h3 class="info__sub-title">Frontend</h3>
+                  <p class="info__light-text">Few words about our vision of good website design.</p>
+                  <h3 class="info__sub-title">Backend & Frameworks</h3>
+                  <p class="info__light-text">Drupal, Twitter Bootstrap, MySQL, jQuery,  PHP, Symfony, git, drush</p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid p-0">
+         <div class="slider">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="slider__slide info info_dark info_bottom0">
+                        <h2 class="info__title">Our <span class="info__title_give">latest</span> works</h2>
+                        <div class="window d-flex flex-column  justify-content-center align-items-center">
+                           <div class="window__nav nav col-10 justify-content-center align-items-center">
+                              <div class="nav__control control">
+                                 <div class="control__block"></div>
+                                 <div class="control__block"></div>
+                                 <div class="control__block"></div>
+                              </div>
+                              <div class="nav__adress-string">
+                                 <img class="nav__restart" src="img/re.png">
+                              </div>
+                              <div class="nav__menu gamburger">
+                                 <div class="gamburger__line"></div>
+                                 <div class="gamburger__line"></div>
+                                 <div class="gamburger__line"></div>
+                              </div>
+                           </div>
+                           <div class="window__content col-10">
+                              <div class="window__content-gradient"></div>
+                              <div class="window__content-text row justify-content-center">
+                                 <div class="col-xl-4">
+                                    <h3 class="info__sub-title">Maunfeld official website</h3>
+                                    <a class="info__link">www.maunfeld.com</a>
+                                 </div>
+                                 <div class="col-xl-6">
+                                    <p class="info__light-text">Internet portal for real estate agents. The system daily parse the ads for sale / exchange of real estate and collects them in a database. Finds Ad agents and private individuals. Sytem allows you to create your own ads, put them up for auction, establish a base of potential customers. Create vCard & vCalendar and much more.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="carousel-item">
+                     <div class="slider__slide info info_dark info_bottom0">
+                        <h2 class="info__title">Our <span class="info__title_give">latest</span> works</h2>
+                        <div class="window  d-flex flex-column  justify-content-center align-items-center">
+                           <div class="window__nav nav col-10">
+                              <div class="nav__control control">
+                                 <div class="control__block"></div>
+                                 <div class="control__block"></div>
+                                 <div class="control__block"></div>
+                              </div>
+                              <div class="nav__adress-string">
+                                 <img class="nav__restart" src="img/re.png">
+                              </div>
+                              <div class="nav__menu gamburger">
+                                 <div class="gamburger__line"></div>
+                                 <div class="gamburger__line"></div>
+                                 <div class="gamburger__line"></div>
+                              </div>
+                           </div>
+                           <div class="window__content col-10">
+                              <div class="window__content-gradient"></div>
+                              <div class="window__content-text row justify-content-center">
+                                 <div class="col-xl-4">
+                                    <h3 class="info__sub-title">Улыбнись :)</h3>
+                                    <a class="info__link">На улице весна</a>
+                                 </div>
+                                 <div class="col-xl-6">
+                                    <p class="info__light-text">Internet portal for real estate agents. The system daily parse the ads for sale / exchange of real estate and collects them in a database. Finds Ad agents and private individuals. Sytem allows you to create your own ads, put them up for auction, establish a base of potential customers. Create vCard & vCalendar and much more.</p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+               </a>
+               <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+               </a>
+            </div>
+         </div>
+      </div>
+      <div class="container-fluid p-0">
+         <div class="contact info d-flex flex-direction-row ">
+            <h2 class="contact__title">Contact 
+               <span class="contact__title_give">us</span>
+            </h2>
+            <div class="map col-12 col-xl-6 col-md-6 col-lg-6 "></div>
+            <div class="contact__text col-12 col-md-6 col-xl-6 col-lg-6 ">
+               <h3 class="info__sub-title">Address</h3>
+               <p class="info__light-text">Republic of Belarus, Minsk, Korzhenevskogo st,  28, 117</p>
+               <h3 class="info__sub-title">Call us or <a data-toggle="modal" data-target="#exampleModalCenter" class="contact__link" href="#">write something</a></h3>
+               <p class="info__light-text">+375 29 660-90-70 <br>skype: koltungena</p>
+            </div>
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+               <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true"></span>
+                     </button>
+                     <div class="modal__caption">Let’s begin the conversaation!</div>
+                     <form class="modal__form">
+                        <input class="modal__text-input" type="text" placeholder="Dmitry Chumak">
+                        <input class="modal__text-input" type="email" placeholder="E-mail">
+                        <input class="modal__text-input"t ype="text" placeholder="Subject">
+                        <input class="modal__submit-button" type="submit" placeholder="Submit">
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- END content -->
+      <!-- BEGIN scripts -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="js/app.js"></script>
+      <!-- END scripts -->
+   </body>
+</html>
+

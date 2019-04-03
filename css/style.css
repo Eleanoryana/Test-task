@@ -1,0 +1,281 @@
+*{
+     font-family: 'Source Sans Pro Light';
+}
+ body{
+     max-width: 100%;
+}
+ .header{
+     min-width: 100%;
+     display: flex;
+     justify-content: center;
+}
+ .info{
+     padding: 13.75rem 0;
+}
+ .info__title, .contact__title{
+     font-size: 3.25rem;
+     color: #000;
+     font-family: 'Source Sans Pro Black';
+     text-align: center;
+     margin-bottom: 70px;
+}
+ .info__title_give, .contact__title_give{
+     font-family: 'PlayfairDisplay-Italic';
+}
+ .info__text{
+     font-size: 1.375rem;
+}
+ .info__light-text{
+     font-size: 1rem;
+     margin-bottom: 20px;
+}
+ .info_avatar{
+     width: 130px;
+     height: 130px;
+     border-radius: 130px;
+     background: #84b8cf;
+     margin-bottom: 15px;
+}
+ .info__small{
+     font-size: 1rem;
+     font-family: 'PlayfairDisplay-Italic';
+     text-align: center;
+}
+ .info__sub-title{
+     font-family: 'Source Sans Pro Black';
+     font-size: 1.5rem;
+     margin-bottom: 15px;
+}
+ .container__dark{
+     background: #000;
+}
+ .info_dark{
+     color: #fff;
+     max-width: 1300px;
+     margin: 0 auto;
+}
+ .info_dark .info__title{
+     color: #fff;
+}
+ .info_bottom0{
+     padding-bottom: 0;
+}
+ .info__link{
+     color: #fff;
+     font-size: 1.125rem;
+     border-bottom: 2px solid #e0076d;
+     padding-bottom: 5px;
+     margin-bottom: 20px;
+     display: inline-block;
+}
+ .info__link:hover{
+     border-bottom: 0;
+     cursor: pointer;
+}
+ .slider{
+     background: #2f3b76;
+     background: -moz-radial-gradient(center, ellipse cover, #2f3b76 24%, #151a33 100%);
+     background: -webkit-radial-gradient(center, ellipse cover, #2f3b76 24%,#151a33 100%);
+     background: radial-gradient(ellipse at center, #2f3b76 24%,#151a33 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2f3b76', endColorstr='#151a33',GradientType=1 );
+}
+ .window__nav{
+     background: #e8e8e8;
+     padding: 15px;
+     border-top-left-radius: 8px;
+     border-top-right-radius: 8px;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+}
+ .control{
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     align-items: center;
+}
+ .control__block{
+     background: #b3b3b3;
+     width: 10px;
+     height: 10px;
+     border-radius: 10px;
+     margin-right: 5px;
+}
+ .nav__adress-string{
+     background: #ffffff;
+     padding: 5px 15px;
+     display: flex;
+     flex-direction: row;
+     justify-content: flex-start;
+     width: 100%;
+     flex: 1;
+     margin: 0 20px;
+}
+ .nav__restart{
+     width: 15px;
+     height: 15px;
+}
+ .gamburger{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+ .gamburger__line{
+     width: 15px;
+     height: 3px;
+     background: #b3b3b3;
+     margin-bottom: 3px;
+}
+ .window__content{
+     background: url("../img/slide-b1.png");
+     background-size: 100%;
+     height: 100%;
+     max-height: 410px;
+     position: relative;
+}
+ .window__content-text{
+     padding: 8rem 6.25rem;
+}
+ .window__content-gradient{
+     position: absolute;
+     width: 100%;
+     height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#aa0351+1,ff0078+100 */
+     background: #aa0351;
+    /* Old browsers */
+     background: -moz-linear-gradient(left, #aa0351 1%, #ff0078 100%);
+    /* FF3.6-15 */
+     background: -webkit-linear-gradient(left, #aa0351 1%,#ff0078 100%);
+    /* Chrome10-25,Safari5.1-6 */
+     background: linear-gradient(to right, #aa0351 1%,#ff0078 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aa0351', endColorstr='#ff0078',GradientType=1 );
+    /* IE6-9 */
+     opacity: 0.9;
+     left: 0;
+}
+ .window__content-text .info__light-text{
+     font-size: 1.25rem;
+}
+ .carousel-control-prev-icon, .carousel-control-next-icon{
+     height: 55px;
+     background-size: 100%;
+     width: 40px;
+}
+ .carousel-control-prev-icon{
+     background: url('../img/iconfinder_left_925897.svg') no-repeat;
+}
+ .carousel-control-next-icon{
+     background-image: url('../img/iconfinder_right_925909.svg') ;
+}
+ .contact{
+     position: relative;
+     padding: 0;
+}
+ .map{
+     margin: 0;
+     padding: 0;
+     max-height: 770px;
+     background: url(../img/map.png);
+}
+ .contact__text{
+     padding: 9.75rem 8.1875rem;
+     padding-top: 300px;
+}
+ .contact__link{
+     color: #ff0078;
+     font-family: 'Source Sans Pro Black';
+     font-size: 1.5rem;
+     text-decoration: underline;
+}
+ .contact__title{
+     position: absolute;
+     top: 140px;
+     z-index: 999;
+     left:50%;
+     margin-left:-135px;
+     padding: 10px 10px;
+     background: rgba(255,255,255,1) 
+}
+ .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+     color: rgb(252, 255, 0);
+}
+ .modal {
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: 1050;
+     display: flex;
+     display: none;
+     width: 100%;
+     height: auto;
+     overflow: hidden;
+     outline: 0;
+     padding-right: 0 !important;
+}
+ .modal-content{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background: rgba(223, 223, 223, 0.8);
+     min-height: 100%;
+     padding-bottom: 150px;
+}
+ .modal__form{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+}
+ .modal-dialog-centered{
+     min-width: 100%;
+     min-height: 100%;
+}
+ .modal__caption{
+     font-family: 'Source Sans Pro Black';
+     font-size: 1.375rem;
+     margin-bottom: 30px;
+}
+ .modal__text-input{
+     font-size: 1.125rem;
+     padding: 10px 20px;
+     background: #fff;
+     width: 370px;
+     width: 100%;
+     border-bottom: 2px solid #fff;
+     margin-bottom: 20px;
+}
+ .modal__submit-button{
+     color: #fff;
+     background: #ff0078;
+     padding: 10px 45px;
+     font-family: 'Source Sans Pro Black';
+     font-size: 1rem;
+     align-self: center;
+}
+ .modal__submit-button:hover{
+     opacity: 0.8;
+}
+ .modal-dialog-centered::before{
+     height: 0;
+}
+ .modal.show .modal-dialog{
+     margin: 0;
+}
+ .close{
+     align-self: flex-end;
+}
+ .close{
+     content: '';
+     background: url('../img/close.png') no-repeat;
+     margin-top: 40px;
+     margin-right: 40px;
+     width: 50px;
+     height: 50px;
+}
+ .modal__text-input:hover, .modal__text-input:active, .modal__text-input:focus{
+     border-bottom: 2px solid #ff0078;
+}
+ 

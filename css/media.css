@@ -1,0 +1,234 @@
+ @media (max-width: 575.98px) {
+     .slider-top__item .desc .small{
+         padding: 0 20px;
+    }
+     .info {
+         padding: 2rem 1rem;
+    }
+     .info__title{
+         font-size: 2.3rem;
+         margin-bottom: 30px;
+    }
+     .info__text{
+         text-align: justify;
+         margin-bottom: 20px;
+    }
+     .info__light-text{
+         margin-top: 20px;
+         text-align: justify;
+    }
+     .info__text {
+         font-size: 1.275rem;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .window__content-text {
+         padding: 20px;
+    }
+     .window__content{
+         max-height: 100%;
+    }
+     .navbar-collapse{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         padding: 40px;
+         background: rgba(0, 0, 0, .6);
+         z-index: 99;
+    }
+     .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+         color: #84b8cf;
+    }
+     .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show > .nav-link:hover{
+         opacity: 1;
+         color: #fff;
+         text-decoration: underline;
+    }
+     .navbar-light .navbar-toggler-icon{
+         z-index: 999999999;
+    }
+     .nav-link{
+         margin-left: 0;
+    }
+     .carousel-control-next-icon, .carousel-control-prev-icon{
+         height: 20px;
+         width: 20px;
+    }
+     .contact{
+         flex-direction: column;
+         padding: 0;
+    }
+     .contact__title{
+         top: 50px;
+    }
+     .contact__text{
+         padding: 50px;
+    }
+     .map{
+         min-height: 200px;
+         width: 100%;
+    }
+}
+ @media (min-width: 576px) and (max-width: 767.98px) {
+     .info {
+         padding: 3rem 1.5rem;
+    }
+     .info__text{
+         margin-bottom: 20px;
+         text-align: justify;
+    }
+     .info__light-text{
+    }
+     .info__text {
+         font-size: 1.275rem;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .window__content-text {
+         padding: 20px;
+    }
+     .window__content{
+         max-height: 100%;
+    }
+     .navbar-collapse{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         padding: 40px;
+         background: rgba(0, 0, 0, .6);
+         z-index: 99;
+    }
+     .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+         color: #84b8cf;
+    }
+     .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show > .nav-link:hover{
+         opacity: 1;
+         color: #fff;
+         text-decoration: underline;
+    }
+     .navbar-light .navbar-toggler-icon{
+         z-index: 999999999;
+    }
+     .nav-link{
+         margin-left: 0;
+    }
+     .contact{
+         flex-direction: column;
+         padding: 0;
+    }
+     .contact__title{
+         top: 50px;
+    }
+     .contact__text{
+         padding: 50px;
+    }
+     .map{
+         min-height: 200px;
+         width: 100%;
+    }
+}
+ @media (min-width: 768px) and (max-width: 991.98px) {
+     .nav-link{
+         margin-left: 0;
+    }
+     .info {
+         padding: 4rem 2rem;
+    }
+     .info__text{
+         margin-bottom: 20px;
+         text-align: justify;
+    }
+     .info__light-text{
+         text-align: justify;
+    }
+     .carousel-control-next, .carousel-control-prev{
+         width: 5%;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .window__content-text {
+         padding: 20px;
+    }
+     .window__content{
+         max-height: 100%;
+    }
+     .navbar-collapse{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         padding: 40px;
+         background: rgba(0, 0, 0, .6);
+         z-index: 99;
+    }
+     .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+         color: #84b8cf;
+    }
+     .navbar-light .navbar-nav .active > .nav-link:hover, .navbar-light .navbar-nav .nav-link.active:hover, .navbar-light .navbar-nav .nav-link.show:hover, .navbar-light .navbar-nav .show > .nav-link:hover{
+         opacity: 1;
+         color: #fff;
+         text-decoration: underline;
+    }
+     .navbar-light .navbar-toggler-icon{
+         z-index: 999999999;
+    }
+     .nav-link{
+         margin-left: 0;
+    }
+     .contact{
+         padding: 0;
+    }
+     .map{
+         max-height: 100%;
+    }
+     .contact__title{
+         top: 50px;
+    }
+     .contact__text{
+         padding: 100px;
+         padding-top: 200px;
+    }
+}
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .info {
+         padding: 6rem 2rem;
+    }
+     .info__text{
+         margin-bottom: 20px;
+    }
+     .carousel-control-next, .carousel-control-prev{
+         width: 10%;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+     .contact{
+         padding: 0;
+    }
+     .contact__title{
+         top: 70px;
+    }
+     .contact__text{
+         padding: 100px;
+         padding-top: 200px;
+    }
+}
+ @media (min-width: 1200px) {
+     .carousel-control-next, .carousel-control-prev{
+         width: 10%;
+    }
+     .info_bottom0{
+         padding-bottom: 0;
+    }
+}
